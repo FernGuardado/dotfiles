@@ -1,9 +1,12 @@
 # Created by newuser for 5.8
 
-neofetch
+# colored scripts
+colorscript -e pacman
+
+# neofetch
+pfetch
 
 source ~/.config/antigen.zsh
-
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -26,3 +29,9 @@ eval "$(starship init zsh)"
 
 # Tell Antigen that you're done.
 antigen apply
+
+PATH="/home/fern/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/fern/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/fern/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/fern/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/fern/perl5"; export PERL_MM_OPT;
