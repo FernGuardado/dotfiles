@@ -5,3 +5,7 @@ configuration {
   icon-theme:         "Papirus";
 }
 @import "/usr/share/rofi/themes/blue.rasi"
+//@theme "/home/fern/.local/share/rofi/themes/slate.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/usr/share/rofi/themes/blue.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
