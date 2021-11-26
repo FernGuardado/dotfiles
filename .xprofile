@@ -1,0 +1,14 @@
+# Status bar
+dwmblocks &
+
+# Notifications
+dunst &
+
+# Network Manager
+nm-applet &
+
+# Compositor
+picom &
+
+# Wallpaper
+nitrogen --restore

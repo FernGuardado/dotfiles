@@ -26,3 +26,4 @@ export PF_COL2=7
 export PF_COL3=6
 
 ########################### EOF PFETCH CONFIG ###########################
+. "$HOME/.cargo/env"
